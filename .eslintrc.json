@@ -1,0 +1,13 @@
+{
+  "plugins": ["react", "react-native", "prettier"],
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": 0
+  }
+}
