@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-import PropTypes from 'prop-types'
+import { View, Text } from 'react-native'
+// import PropTypes from 'prop-types'
 
 class MainScreen extends Component {
   static propTypes = {}
@@ -8,7 +8,7 @@ class MainScreen extends Component {
   render() {
     return (
       <View>
-        <Text>MainScreen</Text>
+        <Text>MainScreen!</Text>
       </View>
     )
   }
@@ -16,4 +16,4 @@ class MainScreen extends Component {
 
 export default MainScreen
 
-const s = StyleSheet.create({})
+// const s = StyleSheet.create({})
