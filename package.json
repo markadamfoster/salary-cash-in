@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
+  "name": "app",
   "scripts": {
     "precommit": "lint-staged"
   },

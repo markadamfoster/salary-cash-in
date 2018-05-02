@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-import PropTypes from 'prop-types'
+import { View, Text } from 'react-native'
 
 class SettingsScreen extends Component {
   static propTypes = {}
@@ -16,4 +15,4 @@ class SettingsScreen extends Component {
 
 export default SettingsScreen
 
-const s = StyleSheet.create({})
+// const s = StyleSheet.create({})

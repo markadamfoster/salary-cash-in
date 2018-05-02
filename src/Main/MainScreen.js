@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
-// import PropTypes from 'prop-types'
+
+import SettingsButton from './_SettingsButton'
 
 class MainScreen extends Component {
-  static propTypes = {}
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: 'Salary Cash-In',
+      headerRight: <SettingsButton navigation={navigation} />
+    }
+  }
 
   render() {
     return (
@@ -15,5 +21,3 @@ class MainScreen extends Component {
 }
 
 export default MainScreen
-
-// const s = StyleSheet.create({})
